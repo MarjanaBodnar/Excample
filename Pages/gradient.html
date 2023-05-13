@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My gradient</title>
+	<style type="text/css">
+		div{
+			height:200px ;
+			width:200px ;
+			margin: 20px;
+			float: left;
+		}
+		p{
+			margin:50px;
+			font-size: 5mm ;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+ <h1>Gradient</h1>
+ <div style="background: linear-gradient( blue,yellow, green );"><p>Це градієнт</p></div>
+ <div style="background: linear-gradient( to left, blue,yellow );"></div>
+ <div style="background: linear-gradient( 45deg, blue,yellow );"></div>
+ <div style="background: linear-gradient( 90deg, blue,yellow );"></div>
+  <div style="background: repeating-linear-gradient( 45deg ,blue 10%, yellow 20%);"></div>
+  <div style="background: repeating-linear-gradient( 360deg ,blue 10%, yellow 20%);"></div>
+  <div style="background: radial-gradient(circle at 50px 50px, red, green, yellow); border-radius: 20%;"></div>
+  <div style="background: radial-gradient(red  0% 20%, green 20% 60%, yellow 60% 100%); "></div>
+<div style="background: radial-gradient(circle at 50px 50px, red, green, yellow); border-radius: 50%;"></div>
+<div style="background: repeating-radial-gradient( blue 10%, green 20%, yellow 30%);"></div>
+<div style="background: conic-gradient(blue , yellow );"></div>
+<div style="background: conic-gradient(blue 40%, yellow 40% 100%);"></div>
+<div style="background: conic-gradient(blue 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg, red 270deg 360deg );"></div>
+<div style="background: conic-gradient( from 45deg ,blue , yellow );"></div>
+<div style="background: conic-gradient( at 40% 67% ,blue , yellow );"></div>
+<div style="background: repeating-conic-gradient(blue 10% , yellow 20%, green 30%);"></div>
+<div style="background: linear-gradient( to right, rgba( 255, 0, 0, 0) ,rgba( 255, 0, 0, 1) );"></div>
+</body>
+</html>
